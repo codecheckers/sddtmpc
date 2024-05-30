@@ -1,0 +1,41 @@
+---
+version: https://codecheck.org.uk/spec/config/1.0
+
+paper:
+  title: >
+    The principal components of natural images
+  authors:
+    - name: Filip
+      ORCID: 0000-0002-6756-9598
+    - name: Anahita
+  reference: >
+    https://arxiv.org/pdf/2310.19997
+
+manifest:
+  - file: fig1.png
+    comment: manuscript Figure 11
+  - file: fig2.png
+    comment: (not included in manuscript)
+  - file: fig3.png
+    comment: manuscript Figure 12 (orange curve only)
+  - file: fig4.png
+    comment: manuscript Figure 13
+  - file: fig5.png
+    comment: manuscript Figure 14
+  - file: fig6.png
+    comment: manuscript Figure 15
+  - file: fig7.png
+    comment: manuscript Figure 16
+
+codechecker:
+  - name: Stephen J. Eglen
+    ORCID: 0000-0001-8607-8025
+  - name: Delft 2024-05 participants
+
+summary: >
+  Matlab code provided by Filip.  Case study 2 only.
+  Full reproduction possible, takes about 2 hours to run
+repository: https://github.com/codecheckers/Reproduction-Hancock
+check_time: "2024-05-30 11:30:00"
+certificate: 2024-003
+report: https://doi.org/10.5281/zenodo.FIXME

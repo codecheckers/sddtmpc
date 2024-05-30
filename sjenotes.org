@@ -1,0 +1,14 @@
+
+fig1.png = Fig 11
+
+
+  = Fig 12
+
+fig4.png = Fig 13
+
+fig5.png = Fig 14
+
+fig6.png = Fig 15
+
+fig7.png = Fig 16
+
