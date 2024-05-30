@@ -2,12 +2,12 @@
 version: https://codecheck.org.uk/spec/config/1.0
 
 paper:
-  title: >
-    The principal components of natural images
+  title: "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances"
   authors:
-    - name: Filip
+    - name: Filip Surma
       ORCID: 0000-0002-6756-9598
-    - name: Anahita
+    - name: Anahita Jamshidnejad
+      ORCID: 0000-0001-9151-2607
   reference: >
     https://arxiv.org/pdf/2310.19997
 
@@ -35,7 +35,7 @@ codechecker:
 summary: >
   Matlab code provided by Filip.  Case study 2 only.
   Full reproduction possible, takes about 2 hours to run
-repository: https://github.com/codecheckers/Reproduction-Hancock
+repository: https://github.com/codecheckers/sddtmpc
 check_time: "2024-05-30 11:30:00"
 certificate: 2024-003
 report: https://doi.org/10.5281/zenodo.FIXME
