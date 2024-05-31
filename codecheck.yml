@@ -2,7 +2,8 @@
 version: https://codecheck.org.uk/spec/config/1.0
 
 paper:
-  title: "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances"
+  title: >
+    State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances
   authors:
     - name: Filip Surma
       ORCID: 0000-0002-6756-9598
@@ -33,7 +34,7 @@ codechecker:
   - name: Delft 2024-05 participants
 
 summary: >
-  Matlab code provided by Filip.  Case study 2 only.
+  Matlab code, requiring 3 additional toolboxes.  Case study 2 only.
   Full reproduction possible, takes about 2 hours to run
 repository: https://github.com/codecheckers/sddtmpc
 check_time: "2024-05-30 11:30:00"
