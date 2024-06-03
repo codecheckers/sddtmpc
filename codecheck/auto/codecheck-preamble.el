@@ -8,6 +8,7 @@
     "booktabs"
     "rotating"
     "makecell"
+    "hyperref"
     "caption"
     "scalerel"
     "tikz")

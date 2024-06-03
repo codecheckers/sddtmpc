@@ -4,7 +4,7 @@ output:
     toc: false
     includes:
        in_header: codecheck-preamble.sty
-    latex_engine: xelatex
+    latex_engine: pdflatex
 ---
 
 ```{r rsetup,eval=TRUE,include=FALSE}
@@ -56,9 +56,9 @@ latex_summary_of_manifest(metadata, manifest_df, root)
 
 # Summary
 
-This project was easy to reproduce.  THe key requirements were clearly
-stated, with the only additional requirement being the Control Systems
-toolbox that was not mentioned in the repo.
+This project was straightforward to reproduce.  The key requirements
+were clearly stated, with the only additional requirement being the
+Control Systems toolbox that was not mentioned in the repository.
 
 The computation time was approximately 2 hours.
 
